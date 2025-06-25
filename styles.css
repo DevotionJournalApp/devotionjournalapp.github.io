@@ -1,0 +1,81 @@
+/* styles.css */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #366560;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #EDB8B6;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  color: #666;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 0.5rem 0;
+}
+
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+form input,
+form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #366560;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2a4d47;
+}
